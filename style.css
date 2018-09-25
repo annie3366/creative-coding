@@ -14,14 +14,17 @@ h1 {
 p, a {
     font-size: 40px;
     font-family: 'Courier New', Courier, monospace;
-}
-
-a {
-    color: red
+    color: red;
 }
 
 h2 {
     font-size: 50px;
     font-family: 'Courier New', Courier, monospace;
     color: yellow;
+}
+
+h3 {
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
 }
