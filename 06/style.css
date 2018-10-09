@@ -1,0 +1,56 @@
+.container {
+    margin-top: 200px;
+}
+
+.square1 {
+    height: 100px;
+    width: 100px;
+    background: rgb(59, 59, 255);
+    float: left;
+}
+
+.square2 {
+    height: 100px;
+    width: 100px;
+    background: rgb(255, 245, 98);
+    float: left;
+}
+
+.square3 {
+    height: 100px;
+    width: 100px;
+    background: rgb(253, 91, 91);
+    float: left;
+}
+
+@-webkit-keyframes flash {
+    from,
+    50%,
+    to {
+      opacity: 1;
+    }
+  
+    25%,
+    75% {
+      opacity: 0;
+    }
+  }
+  
+  @keyframes flash {
+    from,
+    50%,
+    to {
+      opacity: 1;
+    }
+  
+    25%,
+    75% {
+      opacity: 0;
+    }
+  }
+  
+  .flash {
+    -webkit-animation-name: flash;
+    animation-name: flash;
+    animation-duration: 2s;
+  }

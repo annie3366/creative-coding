@@ -1,0 +1,72 @@
+.triangle-up {
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+    border-bottom: 100px solid rgb(95, 98, 235);
+    float: left;
+    margin-left: 50px;
+    margin-top: 100px;
+}
+
+.triangle-up {
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+    border-bottom: 100px solid rgb(95, 98, 235);
+    float: left;
+    margin-left: 25px;
+}
+
+.triangle-up {
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+    border-bottom: 100px solid rgb(95, 98, 235);
+    float: left;
+}
+
+.triangle-down {
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+    border-top: 100px solid rgb(248, 205, 156);
+    float: right;
+    margin: 50px;
+    margin-top: 95px;
+}
+
+@-webkit-keyframes flash {
+    from,
+    50%,
+    to {
+      opacity: 1;
+    }
+  
+    25%,
+    75% {
+      opacity: 0;
+    }
+  }
+  
+  @keyframes flash {
+    from,
+    50%,
+    to {
+      opacity: 1;
+    }
+  
+    25%,
+    75% {
+      opacity: 0;
+    }
+  }
+  
+  .flash {
+    -webkit-animation-name: flash;
+    animation-name: flash;
+    animation-duration: 2s;
+  }
