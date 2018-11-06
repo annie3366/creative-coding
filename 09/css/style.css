@@ -3,7 +3,7 @@
 html, body {
   color: #fff;
   font-family: 'Karla', sans-serif;
-  font-size: 92px;
+  font-size: 30px;
   height: 100%;
   text-align: center;
 }
@@ -34,9 +34,9 @@ img {
 }
 
 .phrase {
-    font-family: 'Fredoka One';
+    font-family: 'VT323', monospace;
     font-size: 50px;
-  position: absolute;
+    position: absolute;
 }
 
 .animated {

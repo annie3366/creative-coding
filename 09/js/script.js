@@ -57,12 +57,10 @@
         pig.style.transform = `rotate(${degreesRotation}deg)`;
         document.body.appendChild(pig);
   
-      } 
-      else if (keyCodePressed === 71) {
+      } else if (keyCodePressed === 71) {
         audio.play();
-      }
-
-      else if (keyCodePressed === 68) {
+      
+      } else if (keyCodePressed === 68) {
   
         const degreesRotation = Math.floor(Math.random() * 360);
   
@@ -75,8 +73,7 @@
         guinea.style.transform = `rotate(${degreesRotation}deg)`;
         document.body.appendChild(guinea);
   
-      }
-      else if (keyCodePressed === 65) {
+      } else if (keyCodePressed === 65) {
         // a for animated
         helpers.removeClass('animated');
         document.body.classList.add('animated');
@@ -95,7 +92,7 @@
         document.body.appendChild(phrase);
   
       } 
-      
+
       counter++;
       // always keeps the message on top of other elements
       messageWrapper.style.zIndex = counter;
