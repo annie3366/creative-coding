@@ -31,6 +31,7 @@ img {
     height: auto;
     max-width: 268px;
     position: absolute;
+    transform: matrix3d()
 }
 
 .phrase {
