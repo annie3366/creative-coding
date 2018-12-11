@@ -26,10 +26,53 @@ section {
     font-size: 20px;
     justify-content: center;
     font-family: 'Pompiere';
+    color: blue;
 }
 
 .parallax{
-    background: url('cowmethane.png') no-repeat center;
+    background: url('cows-801045.jpg') no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 600px;
+}
+
+.parallax2{
+    background: url('mucche.jpg') no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 600px;
+}
+
+.parallax3{
+    background: url('baby-chicks.jpg') no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 600px;
+}
+
+.parallax4{
+    background: url('chickens.jpg') no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 600px;
+}
+
+.parallax5{
+    background: url('pigs.jpg') no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 600px;
+}
+
+.parallax6{
+    background: url('goats.jpg') no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 600px;
+}
+
+.parallax7{
+    background: url('sheeps.jpg') no-repeat center;
     background-size: cover;
     background-attachment: fixed;
     height: 600px;
